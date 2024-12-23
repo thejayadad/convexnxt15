@@ -21,3 +21,42 @@
 - be sure to install the react pacakge 
 - user.ts
 - add the sync
+- test it out 
+- npm run dev
+
+# HERO SECTION
+- bring into homepage
+- setup prop
+-  DriveJournal
+-               "Discover, Share, and Chronicle Your Vehicle Experiences"
+-   A community-driven platform to explore honest vehicle reviews, 
+              insights, and stories from enthusiasts like you.
+
+```
+    <HeroSection
+    title="DriveJournal"
+    description=""
+    subDescription=""
+    showDescription={false}
+    showSubDescription={false}
+    />
+
+
+```
+# SEARCH BAR
+- create the bar
+- add the form
+- include the clear button
+
+
+# HEADER
+- setup the layout
+- add the header
+- style it
+
+
+# CREATE THE POST
+- build the schemea
+- add the route file
+
+

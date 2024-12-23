@@ -4,6 +4,7 @@ import {  ConvexReactClient, Authenticated, Unauthenticated, AuthLoading } from 
 import { ReactNode } from "react";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
 import {ClerkProvider, SignIn, useAuth} from "@clerk/clerk-react"
+import PreLoader from "./pre-loader";
 
 const convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL!);
 
@@ -20,7 +21,7 @@ export function ConvexClientProvider({ children }: { children: ReactNode }) {
             </div>
           </Unauthenticated>
           <AuthLoading>
-            <p>Loading Auth...</p>
+             <PreLoader />
           </AuthLoading>
           </ConvexProviderWithClerk>
       </ClerkProvider>    
